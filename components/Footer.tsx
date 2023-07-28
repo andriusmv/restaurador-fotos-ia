@@ -4,33 +4,25 @@ export default function Footer() {
   return (
     <footer className="text-center h-16 sm:h-20 w-full sm:pt-2 pt-4 border-t mt-5 flex sm:flex-row flex-col justify-between items-center px-3 space-y-3 sm:mb-0 mb-3">
       <div>
-        Powered by{" "}
+        Escrito por{" "}
         <a
-          href="https://replicate.com/"
+          href="https://www.linkedin.com/in/luis-varilla-06114643/"
           target="_blank"
           className="font-bold transition hover:text-black/50"
         >
-          Replicate,{" "}
+          Luis Varilla,{" "}
         </a>
         <a
-          href="https://upload.io"
+          href="https://www.linkedin.com/in/andresmorenovasquez/"
           target="_blank"
           className="font-bold transition hover:text-black/50"
         >
-          Upload,{" "}
-        </a>
-        and{" "}
-        <a
-          href="https://vercel.com/"
-          target="_blank"
-          className="font-bold transition hover:text-black/50"
-        >
-          Vercel.
+          y Andrés Moreno,{" "}
         </a>
       </div>
       <div className="flex space-x-4 pb-4 sm:pb-0">
         <Link
-          href="https://twitter.com/nutlope"
+          href="https://twitter.com/amorenva"
           className="group"
           aria-label="TaxPal on Twitter"
         >
@@ -42,9 +34,9 @@ export default function Footer() {
           </svg>
         </Link>
         <Link
-          href="https://github.com/Nutlope/restorePhotos"
+          href="https://github.com/andriusmv/restaurador-fotos-ia"
           className="group"
-          aria-label="TaxPal on GitHub"
+          aria-label="Foto Robot en GitHub"
         >
           <svg
             aria-hidden="true"
