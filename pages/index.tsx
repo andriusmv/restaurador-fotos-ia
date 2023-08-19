@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   return (
     <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
-        <title>Restaurador de Fotos con IA</title>
+        <title>Photo Restorer with AI</title>
       </Head>
       <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-28 mt-20">
@@ -28,15 +28,15 @@ const Home: NextPage = () => {
           Restaura tus fotos{" "}
           <span className="relative whitespace-nowrap text-[#3290EE]">
             <SquigglyLines />
-            <span className="relative">usando IA</span>
+            <span className="relative">Photo Restorer using AI</span>
           </span>{" "}
-          para todos.
+          For everyone.
         </h1>
 
         <p className="mx-auto mt-12 max-w-xl text-lg text-slate-700 leading-7">
-          Tienes fotos muy viejas y de mala calidad? Deja que nuestra IA las
-          restaure para que tus recuerdos sigan por muchos años más. 100%
-          gratis.
+        Do you have very old and low-quality photos?
+          Let our AI restore them so your memories can continue for many more years.
+          100% free..
         </p>
         <div className="flex justify-center space-x-4">
           <a
@@ -45,14 +45,14 @@ const Home: NextPage = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Aprende cómo funciona
+            Learn how it works.
           </a>
 
           <Link
             className="bg-black rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-black/80"
             href="/restore"
           >
-            Restaura tus fotos
+            Restore your photos.
           </Link>
         </div>
         <div className="flex justify-between items-center w-full flex-col sm:mt-10 mt-6">
