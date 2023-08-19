@@ -21,11 +21,11 @@ const Home: NextPage = () => {
           rel="noreferrer"
           className="border rounded-2xl py-1 px-4 text-slate-500 text-sm mb-5 hover:scale-105 transition duration-300 ease-in-out"
         >
-          Usado por <span className="font-semibold">300,000</span> usuarios
-          felices
+          Used by <span className="font-semibold">300,000</span> Happy users
+          
         </a>
         <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-slate-900 sm:text-7xl">
-          Restaura tus fotos{" "}
+        Restore your photos{" "}
           <span className="relative whitespace-nowrap text-[#3290EE]">
             <SquigglyLines />
             <span className="relative">Photo Restorer using AI</span>
