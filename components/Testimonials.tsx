@@ -7,7 +7,7 @@ const testimonials = [
         "Just had early access to this and it's *ridic*. Powered by @vercel x @replicatehq – also very fast.",
       link: "https://twitter.com/rauchg/status/1612233034622984192",
       author: {
-        name: "Guillermo Rauch",
+        name: "Guillermo",
         role: "CEO at Vercel",
         image: "/g.jpg",
       },
@@ -29,7 +29,7 @@ const testimonials = [
         "I just used it and am extremely impressed with the website and wanted to express my appreciation for the excellent design and functionality. Keep up the great work!",
       link: "https://twitter.com/phar_whaz/status/1612498030627852309",
       author: {
-        name: "Fawaz Adeniji",
+        name: "Fawaz A",
         role: "Software Engineer",
         image: "/fawaz.jpg",
       },
